@@ -82,7 +82,7 @@ let Tablas = {
 
 						//Se añaden los contenidos a un nuevo <div>
 						div  = "<div>";
-						div += txt.length ? "<span class='tdbold'>" + txt + ":</span>" : "";			
+						div += txt.length ? "<span><b>" + txt + ":</b></span>" : "";			
 						div += c.innerHTML ? "<span class='content'> " + c.innerHTML + "</span>" : "";
 						div += "</div>";	
 
